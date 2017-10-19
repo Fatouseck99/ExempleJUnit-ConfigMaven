@@ -24,6 +24,7 @@ public class Lancé {
 
     ArrayList<Couple> listeDeLancés = new ArrayList<Couple>();
 
+
     public void ajouterJet(int valeur) {
         Couple c = new Couple(valeur);
         int j = 0;
@@ -40,6 +41,11 @@ public class Lancé {
 
     }
 
+    /**
+     *
+     * @param i
+     * @return
+     */
     public boolean estConservé(int i) {
         return listeDeLancés.get(i).retenu;
     }

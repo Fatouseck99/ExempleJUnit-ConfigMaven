@@ -16,6 +16,10 @@ public class CoupsTest {
         lancé = new Lancé();
     }
 
+    /**
+     *
+     * @throws Exception
+     */
     @Test
     public void valeurTesté421() throws Exception {
         lancé.ajouterJet(4);
